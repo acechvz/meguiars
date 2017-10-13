@@ -49,5 +49,9 @@ span.ms-menu-list_dropdown-trigger:hover, span.ms-menu-list_dropdown-trigger:act
 #mc_embed_signup input.button {
 	background-color: transparent;
 	text-transform: uppercase;
-	
+
+}
+
+.custom_footer.custom_footer5 {
+	color: white;
 }
