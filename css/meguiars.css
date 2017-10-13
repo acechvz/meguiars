@@ -1,0 +1,21 @@
+
+span.ms-menu-list_dropdown-trigger {
+ 	display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 42px;
+    width: 42px;
+    background-color: #ffdd00;
+ }
+
+span.ms-menu-list_dropdown-trigger::after {
+	background-color: #ffdd00;
+	color: black;
+	width: 42px;
+    line-height: 42px;
+}
+
+span.ms-menu-list_dropdown-trigger:hover, span.ms-menu-list_dropdown-trigger:active, span.ms-menu-list_dropdown-trigger:focus {
+	color: black !important;
+}
