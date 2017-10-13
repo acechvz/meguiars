@@ -10,7 +10,6 @@ span.ms-menu-list_dropdown-trigger {
  }
 
 span.ms-menu-list_dropdown-trigger::after {
-	background-color: #ffdd00;
 	color: black;
 	width: 42px;
     line-height: 42px;
@@ -18,4 +17,37 @@ span.ms-menu-list_dropdown-trigger::after {
 
 span.ms-menu-list_dropdown-trigger:hover, span.ms-menu-list_dropdown-trigger:active, span.ms-menu-list_dropdown-trigger:focus {
 	color: black !important;
+}
+
+#mc_embed_signup {
+	background-color: transparent !important;
+}
+
+#mc_embed_signup form {
+	padding: 0;
+	margin: 10px 0;
+}
+
+#mc_embed_signup_scroll {
+	position: relative;
+}
+
+#mc_embed_signup input.email {
+	border-radius: 3px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    width: 65%;
+}
+
+#mc_embed_signup .clear {
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#mc_embed_signup input.button {
+	background-color: transparent;
+	text-transform: uppercase;
+	
 }
